@@ -1,0 +1,175 @@
+{
+  "// site": "Global site metadata used in <head> tags across the app.",
+  "site": {
+    "name": "Tanbir",
+    "title": "Tanbir | AI Data Specialist & Quality Analyst",
+    "description": "Portfolio of Md Tanbir Hossen Joy — AI Data Specialist, Quality Analyst, and Prompt Engineer based in Bangladesh. Specializing in AI data annotation, LLM evaluation, and voice AI auditing.",
+    "url": "https://tanbir-portfolio.vercel.app"
+  },
+
+  "// hero": "Content for the full-viewport Hero section (name, tagline, CTA labels).",
+  "hero": {
+    "eyebrow": "< Hello World! />",
+    "title": "I'm Tanbir",
+    "subtitle": "AI Data Specialist · Quality Analyst · Prompt Engineer",
+    "description": "Turning raw data into intelligent AI systems — one annotation, one evaluation, one audit at a time.",
+    "ctaPrimary": { "label": "View My Work", "href": "#projects" },
+    "ctaSecondary": { "label": "Get in Touch", "href": "#contact" }
+  },
+
+  "// about": "Bio text and the stat cards shown in the About section.",
+  "about": {
+    "eyebrow": "ABOUT ME",
+    "title": "From Zoology to AI — My Journey",
+    "paragraphs": [
+      "I'm Md Tanbir Hossen Joy — an AI Data Specialist based in Bangladesh with a unique path from biological sciences to artificial intelligence.",
+      "Currently working as a Data Annotator at iMerit and as a freelance AI data professional across platforms like RWS TrainAI Community and Appen CrowdGen, I specialize in training and evaluating the AI models that power tomorrow's technology.",
+      "My academic background in Zoology at Hajee Mohammad Danesh Science and Technology University (HSTU) taught me precision in observation and classification — skills that translate perfectly to AI data annotation and quality assurance. I've also completed a Prompt Engineering Bootcamp through Ostad and am currently enrolled in an AI/ML Engineering Bootcamp to deepen my technical expertise.",
+      "Beyond my core work, I serve as a Campus Ambassador for English Carnival Bangladesh and ICT Olympiad Bangladesh, championing digital literacy and language skills in my community."
+    ],
+    "stats": [
+      { "label": "2+ Years", "value": "In AI Data Industry", "pulse": false },
+      { "label": "Multiple Platforms", "value": "iMerit · RWS · Appen", "pulse": false },
+      { "label": "Currently Learning", "value": "AI/ML Engineering", "pulse": true },
+      { "label": "Based in", "value": "Bangladesh 🇧🇩", "pulse": false }
+    ]
+  },
+
+  "// skills": "Array of skill cards. Add a new object to add a new skill card. `icon` must match a Lucide icon name.",
+  "skills": {
+    "eyebrow": "EXPERTISE",
+    "title": "Skills & Tools",
+    "items": [
+      { "name": "AI Data Annotation & Labeling", "description": "Structuring and labeling datasets for machine learning model training", "icon": "Tags" },
+      { "name": "Image Quality Rating & Evaluation", "description": "Systematic assessment of image datasets for AI training standards", "icon": "ImageIcon" },
+      { "name": "AI/LLM Response Evaluation", "description": "Evaluating large language model outputs for accuracy, safety, and quality", "icon": "BrainCircuit" },
+      { "name": "Data Quality Assurance (QA)", "description": "Ensuring dataset integrity through rigorous quality control processes", "icon": "ShieldCheck" },
+      { "name": "AI Model Output Evaluation", "description": "Analyzing and scoring AI-generated content across multiple dimensions", "icon": "Gauge" },
+      { "name": "Prompt Evaluation & Optimization", "description": "Designing, testing, and refining prompts for optimal AI performance", "icon": "Sparkles" },
+      { "name": "Content Review & Moderation", "description": "Reviewing AI-generated and user-created content for policy compliance", "icon": "FileSearch" },
+      { "name": "Google Sheets & Microsoft Excel", "description": "Advanced spreadsheet skills for data management and reporting", "icon": "Sheet" },
+      { "name": "Data Entry & Web Research", "description": "Efficient data collection, entry, and online research methodologies", "icon": "Search" },
+      { "name": "AI-Assisted Productivity Tools", "description": "Leveraging AI tools to optimize workflows and productivity", "icon": "Zap" }
+    ]
+  },
+
+  "// experience": "Vertical timeline entries, most recent first. `status` is optional freeform text (e.g. an in-progress marker).",
+  "experience": {
+    "eyebrow": "EXPERIENCE",
+    "title": "Professional Journey",
+    "items": [
+      {
+        "org": "AI/ML Engineering Bootcamp",
+        "role": "Student",
+        "period": "2026 – Present",
+        "status": "In Progress",
+        "details": [
+          "Currently enrolled in an intensive AI/ML Engineering bootcamp",
+          "Building deeper technical expertise in machine learning engineering"
+        ]
+      },
+      {
+        "org": "RWS TrainAI Community",
+        "role": "AI Response Auditor",
+        "period": "2026 – Present",
+        "status": null,
+        "details": [
+          "Auditing AI voice conversation evaluations on the Live S2S ELO project",
+          "Evaluating rater submissions comparing voice AI models across multiple quality dimensions",
+          "Applying a structured 5-point scoring rubric covering scenario adherence, naturalness, utility, and audio quality",
+          "Writing detailed, evidence-based audit comments with specific deduction justifications"
+        ]
+      },
+      {
+        "org": "iMerit",
+        "role": "Data Annotator",
+        "period": "2026 – Present",
+        "status": null,
+        "details": [
+          "Annotating and labeling diverse datasets for AI/ML model training",
+          "Performing image quality evaluation and data quality assurance",
+          "Contributing to projects spanning computer vision and NLP domains"
+        ]
+      },
+      {
+        "org": "Freelance — RWS TrainAI Community, Appen CrowdGen",
+        "role": "AI Data Specialist",
+        "period": "2026 – Present",
+        "status": null,
+        "details": [
+          "Evaluating AI/LLM model outputs for accuracy and quality",
+          "Performing prompt evaluation and optimization tasks",
+          "Contributing to Bengali-language AI training datasets"
+        ]
+      },
+      {
+        "org": "English Carnival Bangladesh & ICT Olympiad Bangladesh",
+        "role": "Campus Ambassador",
+        "period": "2023 – Present",
+        "status": null,
+        "details": [
+          "Promoting digital literacy and English language skills in university communities",
+          "Organizing campus-level events and outreach programs"
+        ]
+      },
+      {
+        "org": "Vision Emporium",
+        "role": "Sales Associate",
+        "period": "Previous",
+        "status": null,
+        "details": [
+          "Customer-facing sales role building communication and interpersonal skills"
+        ]
+      }
+    ]
+  },
+
+  "// projects": "Featured project cards. Add an object to add a new project.",
+  "projects": {
+    "eyebrow": "PROJECTS",
+    "title": "Featured Work",
+    "items": [
+      {
+        "title": "AI Image Quality Evaluation",
+        "category": "Computer Vision · Data Quality",
+        "description": "Led systematic evaluation of large-scale image datasets for AI model training at iMerit. Developed and applied quality rating frameworks to assess image clarity, relevance, and labeling accuracy — ensuring training data met rigorous standards for computer vision models. Processed thousands of images across multiple evaluation criteria, contributing to improved model performance through higher-quality training data.",
+        "tags": ["Image Annotation", "Quality Rating", "Data QA", "Computer Vision", "iMerit"]
+      },
+      {
+        "title": "AI Data Annotation & Model Evaluation",
+        "category": "NLP · AI Training Data",
+        "description": "Performed multi-platform AI data annotation and model output evaluation across iMerit, RWS TrainAI Community, and Appen CrowdGen. Specialized in labeling diverse datasets — from text classification to LLM response evaluation — supporting the training and fine-tuning of large language models. Applied structured evaluation rubrics to assess AI-generated content for accuracy, relevance, safety, and naturalness.",
+        "tags": ["Data Annotation", "LLM Evaluation", "RLHF", "NLP", "Multi-Platform"]
+      },
+      {
+        "title": "AI Response Auditing & Quality Assurance",
+        "category": "Voice AI · Quality Assurance",
+        "description": "Serving as an Auditor on the RWS Live S2S ELO project — a large-scale voice AI evaluation initiative comparing conversational AI models. Audit rater submissions using a comprehensive 5-point scoring rubric covering scenario adherence, conversational dynamics, naturalness, utility, and audio quality. Identify error clusters, validate dimension ratings, and write detailed evidence-based audit reports. This role demands meticulous attention to detail, deep understanding of conversational AI quality metrics, and the ability to make nuanced judgments across multiple evaluation dimensions.",
+        "tags": ["Voice AI", "Auditing", "QA", "Conversational AI", "RWS", "Evaluation Rubrics"]
+      }
+    ]
+  },
+
+  "// contact": "Contact info shown in the Contact section. `formspreeEndpoint` must be replaced with a real Formspree form ID.",
+  "contact": {
+    "eyebrow": "CONTACT",
+    "title": "Let's Connect",
+    "email": "tanbir.h.hossen@gmail.com",
+    "linkedin": "https://linkedin.com/in/tanbir-ai",
+    "location": "Bangladesh 🇧🇩",
+    "availability": "Open to remote opportunities",
+    "formspreeEndpoint": "https://formspree.io/f/YOUR_FORM_ID"
+  },
+
+  "// footer": "Footer copyright and credit text.",
+  "footer": {
+    "copyright": "© 2026 Md Tanbir Hossen Joy. All rights reserved.",
+    "credit": "Built with Next.js & Three.js"
+  },
+
+  "// socials": "Social links used in Navbar, Hero, and Footer.",
+  "socials": {
+    "linkedin": "https://linkedin.com/in/tanbir-ai",
+    "email": "mailto:tanbir.h.hossen@gmail.com"
+  }
+}
