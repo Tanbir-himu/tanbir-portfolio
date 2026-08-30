@@ -5,6 +5,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import CursorGlow from "@/components/ui/CursorGlow";
+import { NavTransitionProvider } from "@/components/ui/NavTransition";
 import profile from "@/data/profile.json";
 
 const inter = Inter({
@@ -96,7 +97,9 @@ export default function RootLayout({
           Skip to content
         </a>
         <CursorGlow />
-        <Navbar />
+        <NavTransitionProvider>
+          <Navbar />
+        </NavTransitionProvider>
         <main id="main-content">{children}</main>
         <Footer />
         <Analytics />

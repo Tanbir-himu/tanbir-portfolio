@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Download } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useNavTransition } from "@/components/ui/NavTransition";
 
 const NAV_LINKS = [
   { label: "Home", href: "#home" },
@@ -18,6 +19,12 @@ const NAV_LINKS = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const { navigate } = useNavTransition();
+
+  const handleLinkClick = (href: string) => (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    navigate(href);
+  };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -48,6 +55,7 @@ export default function Navbar() {
       >
         <a
           href="#home"
+          onClick={handleLinkClick("#home")}
           className="flex items-center gap-2 font-display text-xl font-bold tracking-tight"
         >
           TANBIR
@@ -59,6 +67,7 @@ export default function Navbar() {
             <li key={link.href}>
               <a
                 href={link.href}
+                onClick={handleLinkClick(link.href)}
                 className="text-sm font-medium text-text-secondary hover:text-text-primary transition-colors"
               >
                 {link.label}
@@ -107,7 +116,10 @@ export default function Navbar() {
                 >
                   <a
                     href={link.href}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={(e) => {
+                      setMenuOpen(false);
+                      handleLinkClick(link.href)(e);
+                    }}
                     className="font-display text-2xl font-semibold text-text-primary hover:text-gradient"
                   >
                     {link.label}
